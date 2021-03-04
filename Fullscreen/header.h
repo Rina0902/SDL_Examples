@@ -1,4 +1,5 @@
-#pragma once
+#ifndef TEST_H_INCLUDED
+#define TEST_H_INCLUDED
 
 #include "SDL/SDL.h"
 #include "SDL/SDL_image.h"
@@ -44,3 +45,5 @@ void toggle_fullscreen(Window* theWindow);
 //Check if anything's wrong with the window
 bool error(Window* theWindow);
 
+
+#endif
