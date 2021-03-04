@@ -8,7 +8,6 @@
 //The surfaces
 SDL_Surface *background;
 SDL_Surface *screen;
-SDL_Surface* testing;
 
 typedef struct Window
 {
